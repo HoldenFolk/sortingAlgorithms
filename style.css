@@ -1,0 +1,44 @@
+.grid {
+    display: grid;
+    row-gap: 20px;
+}
+
+.gridlinks {
+    border: none;
+    color:white; 
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    font: bolder;
+    margin: 4px, 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.range {
+    background:rgb(27, 204, 145);
+    outline:black;
+    opacity: 0.7;
+    transition: opacity .2s;
+    margin: auto;
+
+   
+  }
+
+  #reversedRange { 
+ -webkit-transform: rotateY(180deg);
+   -moz-transform: rotateY(180deg);
+   -ms-transform: rotateY(180deg);
+   -o-transform: rotateY(180deg);
+   transform: rotateY(180deg);
+  }
+
+.slider:hover {
+    opacity: 1;
+}
+
+#chart {
+    margin: auto;
+}
+
