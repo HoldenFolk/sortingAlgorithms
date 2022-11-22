@@ -1,0 +1,22 @@
+.grid {
+    display: inline-grid;
+    position: relative;
+    left: 100px;
+    row-gap: 50px;
+    column-gap: 50px;
+    grid-template-columns: [line1] 200px [line2] 200px [end];
+    grid-template-rows: [row1] 200px [row2] 200px [row3] 200px [last];
+}
+
+.gridlinks {
+    border: none;
+    color:white; 
+    padding: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    font: bolder;
+    margin: 4px, 2px;
+    transition-duration: 1s;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}

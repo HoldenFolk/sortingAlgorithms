@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Sort</title>
+    <link rel="stylesheet" href="./bubble.css" />
+    <link rel="stylesheet" href="../theme.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+    <div id="header"> </div>
+
+    <h1 class="header">Bubble Sort</h1>
+    <p class="content">Bubble Sort is the simplest sorting algorithm that works by
+     repeatedly swapping the adjacent elements if they are in the wrong order.
+     This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.</p>
+
+    <canvas id="chart" style="width:100%;max-width:700px"></canvas>
+
+    <p class="content">Number of Elements</p>
+
+    <div class="sliderContainer"> 
+        <form action="/" method="post" class="form">
+            <input type="range" min="5" max="100" value="50" id="slider" class="range">
+        </form>
+    </div>
+
+    <p class="content">Speed of Algorithm</p>
+
+<div class="sliderContainer"> 
+    <form action="/" method="post" class="form">
+        <input type="range" min="50" max="600" value="100" id="reversedRange" class="range">
+    </form>
+</div>
+
+
+<div class="buttonContainer">     
+    <button type="button" id="reset" class="button"> Set Chart Values </button>
+    <button type="button" id="run" class="button"> Rum Algorithm! </button>
+</div>
+
+
+    <script src = "./bubble.js"></script>
+
+</body>
+</html>
